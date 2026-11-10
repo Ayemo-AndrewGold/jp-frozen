@@ -49,7 +49,7 @@ export function WholesaleCallout() {
         {/* Buttons side by side */}
         <div className="mt-4 flex flex-row gap-2 sm:gap-3">
           <a 
-            href="tel:+2348034567890" 
+            href="tel:+2349067454864" 
             className="flex flex-1 items-center justify-center gap-2 rounded-lg bg-white px-3 py-3 text-xs font-bold text-[#003673] shadow-sm transition hover:bg-[#f0f7ff] sm:px-4"
           >
             <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
@@ -59,7 +59,7 @@ export function WholesaleCallout() {
             <span className="sm:hidden">Call Now</span>
           </a>
           <a 
-            href="https://wa.me/2348034567890?text=Hello%20jp-froze%2C%20I%20am%20interested%20in%20wholesale%20carton%20prices" 
+            href="https://wa.me/2349067454864?text=Hello%20jp-froze%2C%20I%20am%20interested%20in%20wholesale%20carton%20prices" 
             target="_blank" 
             rel="noreferrer" 
             className="flex flex-1 items-center justify-center gap-2 rounded-lg bg-[#15803d] px-3 py-3 text-xs font-bold text-white shadow-[0_6px_18px_rgba(22,163,74,.25)] transition hover:bg-[#166534] sm:px-4"
