@@ -1,0 +1,138 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Testing
+/coverage
+*.coverage
+.pytest_cache/
+.tox/
+
+# Build outputs
+/.next/
+/out/
+/build
+/dist
+*.pyc
+__pycache__/
+
+# Environment variables (CRITICAL - prevents exposing secrets)
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# API Keys and Certificates (CRITICAL - security)
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+config/secrets.json
+secrets.json
+credentials.json
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+pip-log.txt
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+tmp/
+temp/
+.cache/
+.temp/
+
+# Production/Deployment
+.vercel
+.netlify
+.aws/
+.terraform/
+
+# Python specific (for backend)
+venv/
+env/
+ENV/
+.venv
+*.py[cod]
+*$py.class
+*.so
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.installed.cfg
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+
+# Next.js specific (for frontend)
+*.tsbuildinfo
+next-env.d.ts
+
+# Testing
+.nyc_output
+
+# Misc
+*.pem
+.DS_Store
+.pnpm-debug.log*
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
